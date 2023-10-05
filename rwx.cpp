@@ -184,7 +184,7 @@ HHOOK LoadVulnerableDriver(
 bool InjectorInitialise(Driver::Process pr, const wchar_t* ProcessName, PBYTE DllBase, ULONG DllSize)
 {
 	printf("[+] %ws main module base address: 0x%llx\n", PROC_INJECTION, pr.mod(PROC_INJECTIONW));
-
+/* yusori162 discord :) */
 	const wchar_t* VulnerableDllName = L"DxtoryMM64.dll";
 	const wchar_t* VulnerableDllPath = L"C:\\Windows\\DxtoryMM64.dll";
 	const char* VunerableDllSectionName = ".EXEMEM";
